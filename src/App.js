@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import Images from "./Components/Images";
 import "./index.css";
 
@@ -8,6 +8,7 @@ function App() {
 
   function handleClick() {
     setIsShowing(!isShowing);
+    setTitle("Some Cars Images");
   }
   return (
     <div>

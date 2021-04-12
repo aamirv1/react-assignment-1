@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 export default function Images() {
   const [images, setimages] = useState([
     "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1447&q=80",
@@ -11,7 +11,7 @@ export default function Images() {
       return (
         <div className="img">
           <center>
-            <img src={image} width="250" />
+            <img src={image} width="250" alt="car imagesgit" />
           </center>
         </div>
       );
