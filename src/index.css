@@ -1,0 +1,30 @@
+.img {
+    transition: ease-in-out 0.25s;
+}
+.img:hover{
+    transform: scale(1.5);
+    padding: 8px 24px;
+}
+
+.container{
+    display: flex;
+    flex-direction: row ;
+    justify-content: center;
+    align-items: center;
+}
+.title{
+    font-size: 35px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-bottom: 15px;
+}
+.tglbtn{
+    font-size: 20px;    
+    border-radius: 10px;
+    background-color:greenyellow;
+    color:grey;
+    transition: ease-in-out 0.25s;
+}
+.tglbtn:hover{
+    background-color: gold;
+    color:black;
+}
